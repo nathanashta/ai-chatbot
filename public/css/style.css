@@ -1,0 +1,9 @@
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-circle {
+  border-radius: 50%;
+}
