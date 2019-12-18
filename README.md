@@ -1,4 +1,5 @@
 # ai-chatbot
+> Node.js based small talk bot utilizing Web Speech API for speech to text and text to speech, Dialogflow for recognition, and Express for delivery 
 
 ## Installation
 
