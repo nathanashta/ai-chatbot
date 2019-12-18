@@ -7,7 +7,9 @@ const APIAI_SESSION_ID = process.env.APIAI_SESSION_ID;
 app.use(express.static(__dirname + "/views")); // html
 app.use(express.static(__dirname + "/public")); // js, css, images
 
-const server = app.listen(5000);
+const port = process.env.PORT || 5000;
+
+const server = app.listen(port);
 
 const io = require("socket.io")(server);
 
